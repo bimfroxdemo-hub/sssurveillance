@@ -10,7 +10,7 @@ import cctv from "../assets/P/cctv.jpg";
 import fire from "../assets/P/fire.jpg";
 import alarm from "../assets/P/alarm.jpg";
 import bio from "../assets/P/biometric.jpg";
-import SecuritySystems from "../assets/P/security systems.jpg";
+import SecuritySystems from "../assets/P/securitysystems.jpg";
 const Index = () => {
   const services = [
     {
