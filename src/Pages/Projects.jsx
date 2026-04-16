@@ -11,7 +11,7 @@ import Zara from "../assets/client/Zara-logo.jpg";
 import CMS from "../assets/client/CMS-logo.jpg";
 import VCTech from "../assets/client/VC-Tech-logo.jpg";
 import FeelSafe from "../assets/client/feelsafe-logo.jpg";
-import Blinkit from "../assets/P/Blinkit.png";
+import Blinkit from "../assets/photos/Blinkit.png";
 import IIFLFinance from "../assets/client/IIFL-Finance-logo.jpg";
 import MuthoothFinance from "../assets/client/Muthooth-Finance-logo.jpg";
 import Soteria from "../assets/client/Soteria-logo.jpg";

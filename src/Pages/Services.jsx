@@ -2,10 +2,10 @@
 import { Camera, Flame, ShieldAlert, Fingerprint, Check } from "lucide-react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import cctv from "../assets/P/cctv.jpg";
-import fire from "../assets/P/fire.jpg";
-import alarm from "../assets/P/alarm.jpg";
-import bio from "../assets/P/biometric.jpg";
+import cctv from "../assets/photos/cctv.jpg";
+import fire from "../assets/photos/fire.jpg";
+import alarm from "../assets/photos/alarm.jpg";
+import bio from "../assets/photos/biometric.jpg";
 import Card from "./Card";
 const Services = () => {
   const services = [
