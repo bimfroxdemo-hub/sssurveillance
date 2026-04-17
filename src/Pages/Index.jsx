@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Footer from "./Footer";
 import Client from "./Clients";
-
+import SEO from "../components/SEO";
 // Example service images (replace with real SS Surveillance photos)
 import cctv from "../assets/photos/cctv.jpg";
 import fire from "../assets/photos/fire.jpg";
@@ -50,20 +50,41 @@ const Index = () => {
     <div className="min-h-screen bg-white text-gray-900">
       <Navbar />
       <Hero />
-
+      <SEO
+        title="CCTV Installation Services in Surat | SS Surveillance"
+        description="Get professional CCTV installation in Surat. Security systems, fire alarms & biometric access with free site visit."
+        keywords="CCTV installation Surat, security system Surat, CCTV camera near me"
+        schema={{
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          name: "SS Surveillance Services",
+          telephone: "+917862094259",
+          address: {
+            "@type": "PostalAddress",
+            addressLocality: "Surat",
+            addressRegion: "Gujarat",
+            postalCode: "395023",
+            addressCountry: "IN",
+          },
+        }}
+      />
       {/* Services Overview */}
       <section className="py-20 bg-blue-50">
-        <div className="container mx-auto px-8 md:px-16"> {/* increased padding */}
+        <div className="container mx-auto px-8 md:px-16">
+          {" "}
+          {/* increased padding */}
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6 text-blue-900">
               Our Security Solutions
             </h2>
             <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-              Comprehensive surveillance and security services to protect your home, office, and business.
+              Comprehensive surveillance and security services to protect your
+              home, office, and business.
             </p>
           </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10"> {/* more gap */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+            {" "}
+            {/* more gap */}
             {services.map((service, index) => (
               <div
                 key={index}
@@ -79,7 +100,6 @@ const Index = () => {
               </div>
             ))}
           </div>
-
           <div className="text-center mt-12">
             <NavLink
               to="/services"
@@ -91,12 +111,9 @@ const Index = () => {
         </div>
       </section>
 
-
-
       {/* Why Choose Us Section */}
       <section className="py-24 bg-white">
         <div className="max-w-5xl mx-auto px-4 grid md:grid-cols-2 gap-16 items-center">
-
           {/* LEFT TEXT */}
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-blue-900 mb-6">
@@ -122,7 +139,6 @@ const Index = () => {
                 </li>
               ))}
             </ul>
-
           </div>
 
           {/* RIGHT IMAGE */}
@@ -134,29 +150,27 @@ const Index = () => {
               className="w-[400px] h-[380px] object-cover rounded-lg"
             />
           </div>
-
         </div>
       </section>
-
 
       {/* client brand*/}
       <Client />
 
-
       {/* Featured Projects */}
       <section className="py-20 bg-blue-50">
-        <div className="container mx-auto px-8 md:px-16"> {/* increased padding */}
-
+        <div className="container mx-auto px-8 md:px-16">
+          {" "}
+          {/* increased padding */}
           {/* Heading */}
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4 text-blue-900">
               Our Recent Installations
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Explore our latest CCTV, fire alarm, and biometric security projects
+              Explore our latest CCTV, fire alarm, and biometric security
+              projects
             </p>
           </div>
-
           {/* Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {services.map((service, i) => (
@@ -174,9 +188,7 @@ const Index = () => {
                   <h3 className="text-lg font-semibold mb-1">
                     {service.title}
                   </h3>
-                  <p className="text-sm text-gray-200">
-                    {service.description}
-                  </p>
+                  <p className="text-sm text-gray-200">{service.description}</p>
                 </div>
               </div>
             ))}
@@ -186,15 +198,15 @@ const Index = () => {
 
       {/* CTA Section */}
       <section className="py-20 bg-white text-blue-800">
-        <div className="container mx-auto px-8 md:px-16 text-center"> {/* increased padding */}
-
+        <div className="container mx-auto px-8 md:px-16 text-center">
+          {" "}
+          {/* increased padding */}
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Secure Your Property Today
           </h2>
           <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto text-black">
             Get a free security consultation and installation proposal.
           </p>
-
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href={whatsappLink}
