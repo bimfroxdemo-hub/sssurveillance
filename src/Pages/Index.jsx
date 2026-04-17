@@ -7,8 +7,8 @@ import Client from "./Clients";
 
 // Example service images (replace with real SS Surveillance photos)
 import cctv from "../assets/photos/cctv.jpg";
-import fire from "../assets/Photos/fire.jpg";
-import alarm from "../assets/Photos/alarm.jpg";
+import fire from "../assets/photos/fire.jpg";
+import alarm from "../assets/photos/alarm.jpg";
 import bio from "../assets/photos/biometric.jpg";
 import SecuritySystems from "../assets/photos/securitysystems.jpg";
 const Index = () => {
