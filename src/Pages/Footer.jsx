@@ -69,8 +69,8 @@ const Footer = () => {
 
             <li className="flex items-center gap-3">
               <Mail size={20} className="text-blue-400" />
-              <a href="mailto:sssurveillance.service@gmail.com" className="hover:text-blue-400">
-                sssurveillance.service@gmail.com
+              <a href="mailto:info@sssurveillance.com" className="hover:text-blue-400">
+                info@sssurveillance.com
               </a>
             </li>
 
