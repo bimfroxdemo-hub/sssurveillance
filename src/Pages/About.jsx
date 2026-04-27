@@ -83,7 +83,7 @@ const AboutBusiness = () => {
               </p>
               <p className="flex items-center gap-3 text-slate-700">
                 <Mail size={18} className="text-blue-600" />{" "}
-                sssurveillance.service@gmail.com
+                info@sssurveillance.com
               </p>
               <p className="flex items-center gap-3 text-slate-700">
                 <MapPin size={18} className="text-blue-600" /> Surat, Gujarat

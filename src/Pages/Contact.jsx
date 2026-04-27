@@ -91,10 +91,10 @@ I want CCTV installation service in Surat.
               <div>
                 <p className="font-semibold">Email</p>
                 <a
-                  href="mailto:sssurveillance.service@gmail.com"
-                  className="text-gray-600 hover:text-blue-500"
+                      href="mailto:info@sssurveillance.com"
+                      className="text-gray-600 hover:text-blue-500"
                 >
-                  sssurveillance.service@gmail.com
+                  info@sssurveillance.com
                 </a>
               </div>
             </div>
